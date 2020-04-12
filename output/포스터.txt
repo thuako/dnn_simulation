@@ -1,0 +1,26 @@
+
+
+
+
+
+딥러닝의 동작구조는 
+
+
+1. dataset이 존재
+
+2. 모델을 만들고
+
+3. 틀리는 정도만큼 모델의 기울기로 parameter를 조정 -> 
+
+
+
+
+matrix
+
+
+딥러닝의 동작원리는, input과 output이 있는 dataset이 있을 때 input을 우리가 설정한 matrix에 넣어서 나온 output을 dataset의 output과 비교한다.
+
+차이가 나는 정도에 따라 matrix parameter값 들을 조절하여 dataset의 output과 비슷해지도록 계속 학습한다.
+
+
+
